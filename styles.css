@@ -9,12 +9,15 @@ body{
     margin:0 auto;
     background-color:#EB8857;
     padding:40px;
-    border-left:#EBCF75 solid 3px;
-    border-right:#EBCF75 solid 3px;
+    border-left:#EBCF75 solid 5px;
+    border-right:#EBCF75 solid 5px;
+    border-style:dashed;
+    border-top:none;
+    border-bottom:none;
 }
 h1{
     background-color:rgb(255, 174, 0);
-    border:#fff, solid, 3px;
+    border:#fff, solid, 5px;
     border-radius:15px;
     padding: 20px;
     /* margin-bottom: 30px; */
@@ -31,7 +34,7 @@ h2{
 h3{
     border-left: double 30px #fff;
     border-radius: 30px;
-    padding-left: 20px;
+    padding-left: 25px;
     background-color:rgba(241, 174, 4, 0.633);
     width:120px;
 }
@@ -111,7 +114,8 @@ h3:hover{
 #sidebar h3{
     padding: 15px;
     background:none;
-    background-color:rgba(231, 186, 6, 0.986);
+    background-color:#FF9A2C;
+    margin-left:20px;
 }
 @media (max-width:1200px){
     #container{
