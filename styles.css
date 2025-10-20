@@ -1,5 +1,5 @@
 body{
-    background-color:coral;
+    background-color:#EBA259;
     color:#fff;
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
@@ -7,10 +7,10 @@ body{
 #container{
     width:1100px;
     margin:0 auto;
-    background-color:#ff8000;
+    background-color:#EB8857;
     padding:40px;
-    border-left:rgb(255, 102, 0) solid 3px;
-    border-right:rgb(255, 102, 0) solid 3px;
+    border-left:#EBCF75 solid 3px;
+    border-right:#EBCF75 solid 3px;
 }
 h1{
     background-color:rgb(255, 174, 0);
@@ -33,7 +33,7 @@ h3{
     border-radius: 30px;
     padding-left: 20px;
     background-color:rgba(241, 174, 4, 0.633);
-    width:100px;
+    width:120px;
 }
 p{
     line-height: 4em;
@@ -47,7 +47,7 @@ img{
 }
 /* pseudoselectors */
 a:link{
-    color:rgb(255, 242, 0);
+    color:#EB584D;
     text-decoration: none;
     font-weight: bold;
 }
@@ -81,20 +81,23 @@ h3:hover{
 .highlight:hover{
     background-color:white;
 }
-#p2{
-    border: white dotted 2px;
-    padding: 20px;
-    background-color:rgb(255, 140, 0);
-}
 #p1{
-    border: white dotted 2px;
+    border: white dotted 4px;
     padding: 20px;
-    background-color:rgb(255, 140, 0);
+    background-color:#EBCF73;
+    color:black;
+}
+#p2{
+    border: white dotted 4px;
+    padding: 20px;
+    background-color:#EBCF73;
+    color:black;
 }
 #p3{
-    border: white dotted 2px;
+    border: white dotted 4px;
     padding: 20px;
-    background-color:rgb(255, 140, 0);
+    background-color:#EBCF73;
+    color:black;
 }
 #sidebar{
     background-color: rgba(241, 174, 4, 0.633);
