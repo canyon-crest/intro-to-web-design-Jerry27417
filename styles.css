@@ -43,8 +43,8 @@ p{
 }
 img{
     float: left;
-    width: 160px;
-    border: #fff solid 3px;
+    width: 250px;
+    border: white solid 5px;
     border-radius: 15px;
     margin-right: 20px;
 }
