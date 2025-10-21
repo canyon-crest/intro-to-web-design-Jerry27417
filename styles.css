@@ -3,6 +3,7 @@ body{
     color:#fff;
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
+    background-image: linear-gradient(to top, #EB8857, red, #C9C900)
 }
 #container{
     width:1100px;
@@ -103,19 +104,53 @@ h3:hover{
     color:black;
 }
 #sidebar{
-    background-color: rgba(241, 174, 4, 0.633);
-    width:225px;
+    width:none;
     float:right;
-    border: 2px solid rgb(255, 115, 0);
+    border: 2px solid #ff7300;
     margin:20px;
     margin-top:80px;
-    line-height:1.3em;
+    line-height:2em;
+    position: relative;
 }
 #sidebar h3{
     padding: 15px;
     background:none;
     background-color:#FF9A2C;
-    margin-left:20px;
+    margin-left:30px;
+}
+#sidebar li{
+    background-color:rgba(241, 174, 4, 0.633);
+}
+.dropbtn {
+  background-color: rgba(241, 174, 4, 0.633);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #db801f;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content li {
+  color: black;
+  padding: 16px 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content li:hover {
+  background-color: rgba(241, 174, 4, 0.633);
+}
+#sidebar:hover .dropdown-content {
+  display: block;
+}
+
+#sidebar:hover .dropbtn {
+  background-color: rgba(163, 118, 4, 0.633);
 }
 @media (max-width:1200px){
     #container{
